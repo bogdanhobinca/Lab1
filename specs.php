@@ -12,6 +12,8 @@
         $rez=$rez." mugs";
     }else if ($myage>16){
         $rez=$rez." specs";
+    }else{
+        $rez=$rez." nothing";
     }
     echo $rez;
 ?>
