@@ -3,7 +3,6 @@
 <head></head>
 <body>
 <?php
-    $rez="";
     for ($i=1; $i<10; $i++){
         $rez="On the ";
         if ($i==1 || $i==21){
