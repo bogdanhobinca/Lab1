@@ -3,11 +3,11 @@
 <head></head>
 <body>
 <?php
-    for ($i=1; $i<10; $i++){
+    for ($i=1; $i<30; $i++){
         $rez="On the ";
         if ($i==1 || $i==21){
             $rez=$rez.$i."st ";
-        }else if ($i==2 || $i=22){
+        }else if ($i==2 || $i==22){
             $rez=$rez.$i."nd ";
         }else if ($i==3 || $i==23){
             $rez=$rez.$i."rd ";
