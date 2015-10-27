@@ -47,6 +47,12 @@
     echo $myArray[1];
     unset($array[2]);
     ?>
+    <br />
+    <?php
+    for ($i=1; $i<10; $i++){
+        echo "<p>Hello!</p><br />"
+    }
+    ?>
 </p>
 </body>
 </html>
