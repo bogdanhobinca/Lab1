@@ -12,7 +12,7 @@ foreach($provisionedArray as $x){
     if ($x=="Rock and Roll"){
         unset($x);
     }
-    $rez=$rez." ";
+    $rez=$rez." ".$x;
 }
 echo $rez;
 ?>
