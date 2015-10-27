@@ -4,7 +4,7 @@
 <body>
 <?php
     $rez="";
-    for ($i=1; $i<30; $i++){
+    for ($i=1; $i<10; $i++){
         $rez="On the ";
         if ($i==1 || $i==21){
             $rez=$rez.$i."st ";
@@ -15,6 +15,7 @@
         }else{
             $rez=$rez.$i."th ";
         }
+
         if ($i%2==0){
             $rez=$rez."of the month specs are available";
         }else if ($i%3==0){
@@ -25,7 +26,6 @@
             $rez=$rez."of the month no products are available";
         }
         echo "<p>$rez</p>";
-        $rez="";
     }
 ?>
 </body>
