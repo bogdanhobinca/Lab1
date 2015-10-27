@@ -3,7 +3,7 @@
 <head></head>
 <body>
 <?php
-    for ($i=1; $i<30; $i++){
+    for ($i=1; $i<=30; $i++){
         $rez="On the ";
         if ($i==1 || $i==21){
             $rez=$rez.$i."st ";
