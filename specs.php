@@ -4,7 +4,7 @@
 <body>
 <?php
     $myname="Mirel";
-    $myage=18;
+    $myage=15;
     $rez=$myname." buys";
     if ($myage>21){
         $rez=$rez." sausage rolls";
