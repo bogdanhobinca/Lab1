@@ -25,6 +25,7 @@
             $rez=$rez."of the month no products are available";
         }
         echo "<p>$rez</p>";
+        $rez="";
     }
 ?>
 </body>
