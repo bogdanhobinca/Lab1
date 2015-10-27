@@ -50,7 +50,7 @@
     <br />
     <?php
     for ($i=1; $i<10; $i++){
-        echo "<p>Hello!</p><br />"
+        echo "<p>Hello!</p><br />";
     }
     ?>
 </p>
