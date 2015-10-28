@@ -9,7 +9,7 @@
     for ($i=1; $i<4 ; $i++){
         $winner=rand(0,$max);
         $pWinner=$myArray[$winner];
-        echo strtoupper($pWinner);
+        echo "<p>strtoupper($pWinner)</p>";
         unset($myArray[$winner]);
         $max--;
     }
